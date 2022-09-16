@@ -18,11 +18,9 @@ main {
 
 main > * {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 350px) {
   main {
     grid-template-areas:
       "header header header"
@@ -41,6 +39,7 @@ header {
   padding: 30px 0;
   grid-column: 1/-1;
   text-align: center;
+  justify-content: center;
   border-bottom-style: dashed;
   border-width: 1px;
   border-color: rgb(61, 8, 8);
@@ -49,6 +48,7 @@ header {
 .heading {
   font-size: 30px;
   letter-spacing: 10px;
+
 }
 
 aside:first-of-type {
@@ -60,6 +60,10 @@ aside:first-of-type {
 
 .aside-color p{
   color: gray;
+}
+
+aside h4:hover{
+  color: rgb(172, 9, 9);
 }
 
 
@@ -127,4 +131,5 @@ footer {
   grid-area: footer;
   color: aliceblue;
   padding: 10px;
+  justify-content: center;
 }
