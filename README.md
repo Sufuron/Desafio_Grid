@@ -1,1 +1,1 @@
-# Desafio_Grid
+# Desafio_Grid donde validaremos nuestros conocimientos con la creacion de un layout responsive.
